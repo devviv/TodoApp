@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.bashbord{
+    width: 250px;
+    background: #bac5e3;
+    margin-right: 10px;
+    min-height: 100vh;
+    transition: 500ms width;
+}
+.bashbord ul{
+    list-style: none;
+}
+.bashbord ul li{
+    margin-top: 20px;
+
+}
+.bashbord ul li:focus{
+    background-color:  #7e96d8;
+}
+.bashbord ul li:hover{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.bashbord ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    transition: 0.5s;
+}
+.bashbord ul li a:hover{
+    color: blue;
+}
+main{
+    display: flex;
+}
+.task{
+    border: 1px solid #ccd4ea;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 1s;
+}
+.task i:hover{
+    cursor: pointer;
+}
+.task div{
+    margin: 10px;
+}
+
+.datetime, .du{
+    display: flex;
+    justify-content: space-between;
+}
